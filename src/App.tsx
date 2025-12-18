@@ -17,7 +17,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <LanguageSwitch />
-        <BrowserRouter>
+        <BrowserRouter basename="/kim">
           <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
