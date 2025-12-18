@@ -144,7 +144,7 @@ const ContactSection = () => {
         whileTap={{ scale: 0.98 }}
         className="w-full bg-foreground text-background px-8 py-4 font-medium uppercase tracking-wider hover:bg-accent transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {isSubmitting ? t("전송 중...", "Sending...") : t("보내기", "Send")}
+        {isSubmitting ? t("Sending...", "Sending...") : t("Send", "Send")}
       </motion.button>
     </form>
   );

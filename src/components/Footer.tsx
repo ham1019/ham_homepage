@@ -21,7 +21,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="text-sm text-muted-foreground"
         >
-          © {currentYear} {t("모든 권리 보유", "All rights reserved")}.
+          © {currentYear} {t("All rights reserved", "All rights reserved")}.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -30,7 +30,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="text-sm text-muted-foreground"
         >
-          {t("김혜미", "Hyemi Kim")}
+          {t("Hyemi Kim", "Hyemi Kim")}
         </motion.p>
       </div>
     </motion.footer>

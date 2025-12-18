@@ -1,5 +1,3 @@
-vite.config.ts를 아래처럼 바꾸고 다시 빌드 부탁합니당.
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
