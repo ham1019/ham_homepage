@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/kim/",   // ⭐ 최상위 + 반드시 trailing slash
+  base: "/kimhyemi/",   // ⭐ 최상위 + 반드시 trailing slash
   server: {
     host: "::",
     port: 8080,
